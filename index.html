@@ -14,15 +14,15 @@
         </div>
         <div class="rightside">
             <h1>CREATE YOUR ACCOUNT:</h1>
-            <form action="post">
+            <form action="post" class="validator">
                 <label for="name">
                     Your First Name:<br>
-                    <input type="text" name="name" id="name" autofocus>
+                    <input type="text" name="name" id="name" autofocus data-rules="required">
                 </label>
 
                 <label for="lname">
                     Your Last Name:<br>
-                    <input type="text" name="name" id="lname" autofocus>
+                    <input type="text" name="name" id="lname">
                 </label>
 
                 <label for="email">
