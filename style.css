@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.screen {
+    display: flex;
+    height: 100vh;
+
+}
+
+.leftside {
+    flex: 1;  /*Pegar o espaço restante da tela.*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftside img {
+    max-width: 500px;
+    height: auto;
+}
+
+.rightside {
+    width: 400px;
+    background-color: #DDD;
+    padding: 50px;
+}
+
+.rightside label {
+    display: block; /*Para o label não fica na mesma linah do input*/
+    margin-bottom: 20px;
+}
+
+.rightside input {
+    border: 1px solid #999;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 14px;
+    width: 100%;
+    outline: 0; /*Para tirar a borda que fica no input*/
+}
