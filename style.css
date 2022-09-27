@@ -43,3 +43,11 @@ body {
     width: 100%;
     outline: 0; /*Para tirar a borda que fica no input*/
 }
+
+.error {
+    font-size: 11px;
+    background-color: red;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+}
